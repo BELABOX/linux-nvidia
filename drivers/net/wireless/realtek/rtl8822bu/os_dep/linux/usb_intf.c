@@ -240,6 +240,7 @@ static struct usb_device_id rtw_usb_id_tbl[] = {
 	/*=== Customer ID ===*/
 	{USB_DEVICE_AND_INTERFACE_INFO(0x13b1, 0x0043, 0xff, 0xff, 0xff), .driver_info = RTL8822B}, /* Alpha - Alpha*/
 	{USB_DEVICE(0x2357, 0x012D), .driver_info = RTL8822B}, /* TP-Link - Archer T3U */
+	{USB_DEVICE(0x2357, 0x012E), .driver_info = RTL8822B}, /* TP-Link - Archer T3U Nano */
 #endif /* CONFIG_RTL8822B */
 
 #ifdef CONFIG_RTL8723D
